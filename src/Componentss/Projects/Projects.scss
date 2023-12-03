@@ -1,0 +1,138 @@
+.Projects {
+  color: black;
+  width: 100%;
+  min-height: 100vh;
+
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  padding: 20px;
+  background: whitesmoke;
+
+  &__headerSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &__filterButtons {
+      gap: 10px;
+      display: flex;
+
+      button {
+        font-size: 0.9rem;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0, 0);
+      }
+    }
+  }
+
+  &__wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__carousel {
+      gap: 30px;
+      height: auto;
+      width: inherit;
+      overflow: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      &__card {
+        color: white;
+        width: 400px;
+        height: inherit;
+        background-color: var(--grey);
+
+        img,
+        p {
+          padding: 20px;
+          width: inherit;
+        }
+        img {
+          height: 320px;
+          object-fit: cover;
+          border-radius: 30px;
+        }
+        p {
+          padding: 20px;
+          overflow: hidden;
+          text-align: center;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+
+          a {
+            color: white;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}
+
+.active {
+  background: var(--grey);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0);
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
+}
+
+@media screen and (max-width: 1060px) {
+  .Projects {
+    &__wrapper {
+      &__carousel {
+        &__card {
+          width: 300px;
+          img {
+            height: 300px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1060px) {
+  .Projects {
+    &__wrapper {
+      height: 85vh;
+      height: 85dvh;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Projects {
+    &__headerSection {
+      &__filterButtons {
+        button {
+          font-size: 0.65rem;
+        }
+      }
+    }
+    &__wrapper {
+      &__carousel {
+        &__card {
+          width: 250px;
+          img {
+            height: 250px;
+          }
+        }
+      }
+    }
+  }
+}

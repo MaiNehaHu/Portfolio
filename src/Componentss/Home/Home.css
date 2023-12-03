@@ -1,0 +1,21 @@
+.Home {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 820px) {
+  .Home {
+    overflow: auto;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,36 @@
+.Education {
+  color: black;
+  padding: 20px;
+  width: 100%;
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--blue);
+
+  &__cardContainer {
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+
+    &__card {
+      padding: 10px;
+      border-radius: 15px;
+      background-color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .Education {
+    &__cardContainer {
+      height: 85vh;
+      height: 85dvh;
+      font-size: 0.8rem;
+    }
+  }
+}
