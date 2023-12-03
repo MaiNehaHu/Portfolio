@@ -8,7 +8,7 @@ export default [
   {
     institute: "Sri Chaitanya Junior College",
     course: "12th (TS Board)",
-    year: "2020",
+    year: "2018-2020",
     grade: "92.3%",
   },
   {
