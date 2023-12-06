@@ -4,5 +4,5 @@
 
 > 1. Used React + Vite
 > 2. Responsive Design
-> 3. Used CSS animation, Framer-motion, and GSAP for small animations
+> 3. Used CSS animation for small animations
 > 4. Resume can be downloaded by clicking on the button.
