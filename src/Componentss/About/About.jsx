@@ -11,7 +11,7 @@ const About = () => {
       <div className={`${className}__container`}>
         <section className={`${className}__container__section`}>
           <p className={`${className}__container__section_para`}>
-            I'm a passionate front-end web developer with a <q>love</q> for
+            I'm a passionate front-end web developer with a passion for
             transforming designs into seamless and engaging user interfaces. I
             find joy in the creative process of building the visual aspects of
             websites, turning ideas into interactive experiences.
