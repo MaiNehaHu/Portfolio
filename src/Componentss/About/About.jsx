@@ -24,13 +24,9 @@ const About = () => {
           </h4>
           <p className={`${className}__container__section__para`}>
             I have a good knowledge of technologies such as HTML, CSS, React JS,
-            Redux Toolkit, Tailwind CSS, Git, and GitHub. I am currently
-            expanding my skill set by delving into the world of Node JS, adding
+            jQuery, Redux Toolkit, Tailwind CSS, SASS/SCSS, Git, and GitHub. I am currently
+            expanding my skill set by delving into the world of Next JS, adding
             another layer to my expertise.
-            <br />
-            <br />I am currently engaged in an enriching internship that allows
-            me to apply my skills, gain valuable experience, and continuously
-            grow in the ever-evolving field of web development.
           </p>
         </section>
 
