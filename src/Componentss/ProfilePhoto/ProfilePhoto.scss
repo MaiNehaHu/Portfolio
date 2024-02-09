@@ -13,7 +13,10 @@
 }
 
 .ProfilePhoto > img {
+  width: 400px;
+  height: 450px;
   border-radius: 50%;
+  object-fit: cover;
   border: 5px solid var(--blue);
 }
 
@@ -48,7 +51,12 @@
     transform: translateY(-5px);
   }
 }
-
+@media screen and (max-width: 1000px) {
+  .ProfilePhoto > img {
+    width: 350px;
+    height: 400px;
+  }
+}
 @media screen and (max-width: 820px) {
   .ProfilePhoto {
     background-color: var(--blue);
@@ -60,6 +68,14 @@
 
 @media screen and (max-width: 450px) {
   .ProfilePhoto > img {
+    width: 300px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .ProfilePhoto > img {
     width: 250px;
+    height: 300px;
   }
 }

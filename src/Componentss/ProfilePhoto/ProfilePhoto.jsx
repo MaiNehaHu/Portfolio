@@ -1,6 +1,6 @@
 import React from "react";
 import { useMediaQuery } from "@mui/material";
-import Image from "./Neha.png";
+import Image from "./Neha.jpg";
 import "./ProfilePhoto.scss";
 
 const ProfilePhoto = () => {
