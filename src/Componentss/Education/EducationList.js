@@ -12,7 +12,7 @@ export default [
     grade: "92.3%",
   },
   {
-    institute: "Paramount Academy",
+    institute: "Marri Laxman Reddy Institute of Technology and Management",
     course: "Electronics and Communication Engineering",
     year: "2020-2024 (Pursuing)",
     grade: "8.3 CGPA (till 5th sem)",
