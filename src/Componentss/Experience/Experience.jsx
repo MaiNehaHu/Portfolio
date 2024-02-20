@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <div className={className}>
       <h2 className={`${className}__heading heading`}>Experience</h2>
-      
+
       {List.map((exp, i) => (
         <div key={i} className={`${className}__card ${exp.company}`}>
           <section className={`${className}__card__left`}>
@@ -31,7 +31,7 @@ const Experience = () => {
             <h3 className={`${className}__card__right__role`}>{exp.role}</h3>
 
             <ul className={`${className}__card__right__responsibility`}>
-              Job role:
+              {!exp ? "Job role: " : ""}
               {exp.responsibility.map((res, i) => (
                 <li key={i}>{res}</li>
               ))}
