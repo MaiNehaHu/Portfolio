@@ -13,7 +13,8 @@ import img12 from "../../images/JS-Alarm.png";
 import img13 from "../../images/MultiMedicineReminder.png";
 import img14 from "../../images/FeelBeautiful.png";
 import img15 from "../../images/SanataniAlphabets.png";
-import img16 from "../../images/To-do-with-API.png";
+import img16 from "../../images/FileExplorer.png";
+import img17 from '../../images/CountdownTimer.png'
 
 export default [
   {
@@ -23,10 +24,21 @@ export default [
     src: img14,
   },
   {
+    name: "File Explorer/ File Manager",
+    href: "https://mainehahu.github.io/File_Explorer/",
+    tag: "React",
+    src: img16,
+  },
+  {
     name: "Awesome use of CSS Flex",
     href: "https://mainehahu.github.io/Flex-Panels/",
     tag: "Vanilla",
     src: img1,
+  }, {
+    name: "Countdown Timer",
+    href: "https://mainehahu.github.io/CountdownTimer/",
+    tag: "React",
+    src: img17,
   },
   {
     name: "Parallax Effect using React JS",
@@ -58,12 +70,7 @@ export default [
     tag: "React",
     src: img13,
   },
-  {
-    name: "CRUD App with API and Redux Toolkit",
-    href: "https://mainehahu.github.io/CRUD-with-API-and-ReduxToolKit/",
-    tag: "React",
-    src: img16,
-  },
+
   {
     name: "Medicine Reminder",
     href: "https://mainehahu.github.io/Medicine-reminder/",
