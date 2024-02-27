@@ -1,6 +1,6 @@
 import React from "react";
 import { useMediaQuery } from "@mui/material";
-import resume from "./Resume.pdf";
+import resume from "./Neha_Kumari.pdf";
 import "./Introduction.scss";
 import ContactLinks from "../ContactLinks/ContactLinks";
 

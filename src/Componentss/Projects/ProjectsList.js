@@ -15,6 +15,7 @@ import img14 from "../../images/FeelBeautiful.png";
 import img15 from "../../images/SanataniAlphabets.png";
 import img16 from "../../images/FileExplorer.png";
 import img17 from '../../images/CountdownTimer.png'
+import img18 from '../../images/AnswerToQueries.png'
 
 export default [
   {
@@ -70,7 +71,12 @@ export default [
     tag: "React",
     src: img13,
   },
-
+  {
+    name: "List of Querie and Answer",
+    href: "https://mainehahu.github.io/AnswerToQueries/",
+    tag: "React",
+    src: img18,
+  },
   {
     name: "Medicine Reminder",
     href: "https://mainehahu.github.io/Medicine-reminder/",
