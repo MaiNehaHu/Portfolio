@@ -16,6 +16,7 @@ import img15 from "../../images/SanataniAlphabets.png";
 import img16 from "../../images/FileExplorer.png";
 import img17 from '../../images/CountdownTimer.png'
 import img18 from '../../images/AnswerToQueries.png'
+import img19 from '../../images/icp.png';
 
 export default [
   {
@@ -25,17 +26,30 @@ export default [
     src: img14,
   },
   {
+    name: "Awesome use of CSS Flex",
+    href: "https://mainehahu.github.io/Flex-Panels/",
+    tag: "Vanilla",
+    src: img1,
+  },
+  {
     name: "File Explorer/ File Manager",
     href: "https://mainehahu.github.io/File_Explorer/",
     tag: "React",
     src: img16,
   },
   {
-    name: "Awesome use of CSS Flex",
-    href: "https://mainehahu.github.io/Flex-Panels/",
+    name: "ICP Login",
+    href: "https://mainehahu.github.io/ICP-Login/",
+    tag: "React",
+    src: img19,
+  },
+  {
+    name: "NETFLIX clone with Mood feature",
+    href: "https://mainehahu.github.io/NETFLIX-clone-with-Mood-Feature/",
     tag: "Vanilla",
-    src: img1,
-  }, {
+    src: img9,
+  },
+  {
     name: "Countdown Timer",
     href: "https://mainehahu.github.io/CountdownTimer/",
     tag: "React",
@@ -46,12 +60,6 @@ export default [
     href: "https://mainehahu.github.io/Parallax-effect",
     tag: "React",
     src: img11,
-  },
-  {
-    name: "NETFLIX clone with Mood feature",
-    href: "https://mainehahu.github.io/NETFLIX-clone-with-Mood-Feature/",
-    tag: "Vanilla",
-    src: img9,
   },
   {
     name: "CRUD App with Local Storage and Redux Toolkit",
