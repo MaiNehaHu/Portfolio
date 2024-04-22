@@ -14,7 +14,7 @@ export default [
   {
     institute: "Marri Laxman Reddy Institute of Technology and Management",
     course: "Electronics and Communication Engineering",
-    year: "2020-2024 (Pursuing)",
-    grade: "8.3 CGPA (till 5th sem)",
-  },
+    year: "2020-2024",
+    grade: "8.24 CGPA (till 7th sem)",
+  }
 ];
