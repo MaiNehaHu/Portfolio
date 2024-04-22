@@ -25,7 +25,7 @@ const About = () => {
           <p className={`${className}__container__section__para`}>
             I have a good knowledge of technologies such as HTML, CSS, React JS,
             jQuery, Redux Toolkit, Tailwind CSS, SASS/SCSS, Git, and GitHub. I am currently
-            expanding my skill set by delving into the world of Next JS, adding
+            expanding my skill set by delving into the world of React Native, adding
             another layer to my expertise.
           </p>
         </section>
