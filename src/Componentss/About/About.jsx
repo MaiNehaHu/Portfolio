@@ -20,14 +20,13 @@ const About = () => {
 
         <section className={`${className}__container__section`}>
           <h4 className={`${className}__container__section__heading`}>
-            Technical
+            Technical Skills
           </h4>
-          <p className={`${className}__container__section__para`}>
-            I have a good knowledge of technologies such as HTML, CSS, React JS,
-            jQuery, Redux Toolkit, Tailwind CSS, SASS/SCSS, Git, and GitHub. I am currently
-            expanding my skill set by delving into the world of React Native, adding
-            another layer to my expertise.
-          </p>
+          <div className={`${className}__container__section__skills`}>
+            {skillsList.map((skill) => (
+              <p>{skill} </p>
+            ))}
+          </div>
         </section>
 
         <section className={`${className}__container__section`}>
@@ -47,3 +46,7 @@ const About = () => {
 };
 
 export default About;
+
+const skillsList = [
+  "HTML/CSS", "JavaScript", "React JS", "React Native", "Git", "GitHub", "Tailwind CSS", "Redux Toolkit", "SASS"
+]
