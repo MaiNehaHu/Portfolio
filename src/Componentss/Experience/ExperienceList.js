@@ -27,7 +27,7 @@ export default [
     companyDescription:
       "We build digital product, from idea to design, development to marketing & PR to post launch support.",
     responsibility: [
-      "Contributing to the development of Web3 Decentralized Dapps within the ICP ecosystem using React JS.",
+      "Contributing to the development of Web3 Decentralized Apps within the ICP ecosystem using React JS.",
       "Collaborating on projects from ideation to launch, focusing on creating innovative solutions that bring visions to reality."
     ],
   },

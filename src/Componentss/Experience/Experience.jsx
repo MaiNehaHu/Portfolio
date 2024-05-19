@@ -25,6 +25,8 @@ const Experience = () => {
                 <TbExternalLink />
               </p>
             </a>
+
+            <p style={{ fontSize: '12px' }}>{exp.duration}</p>
           </section>
 
           <section className={`${className}__card__right`}>
