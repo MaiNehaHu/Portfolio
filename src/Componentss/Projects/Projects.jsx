@@ -5,11 +5,11 @@ import "./Projects.scss";
 const Projects = () => {
   const className = "Projects";
   const [list, setList] = useState(ProjectList);
-  const [isActiveButton1, setIsActiveButton1] = useState(true); //for button
-  const [isActiveButton2, setIsActiveButton2] = useState(false);
+  const [isActiveButton1, setIsActiveButton1] = useState(false); //for button
+  const [isActiveButton2, setIsActiveButton2] = useState(true);
   const [isActiveButton3, setIsActiveButton3] = useState(false);
 
-  function showNative() {
+  function filterNative() {
     const tag = "Native";
 
     const NativeList = ProjectList.filter((Project) => {
@@ -66,7 +66,10 @@ const Projects = () => {
           >
             JavaScript
           </button>
-          <button onClick={showNative} className={isActiveButton1 ? "active" : ""}>
+          <button
+            onClick={filterNative}
+            className={isActiveButton1 ? "active" : ""}
+          >
             React Native
           </button>
         </div>
