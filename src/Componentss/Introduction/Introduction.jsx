@@ -17,7 +17,6 @@ const Introduction = () => {
         <p className={`${className}__text__about`}>
           I'm
           <span className={`${className}__text__about__name`}>
-            {" "}
             Neha Kumari
           </span>
           . A self taught Front-End Web Developer.

@@ -21,7 +21,6 @@ const Home = () => {
         <RightSideCompo />
       ) : (
         <React.Fragment>
-          <ProfilePhoto />
           <About />
           <Experience />
           <Projects />

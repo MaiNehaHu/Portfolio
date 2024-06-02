@@ -49,6 +49,7 @@
         color: white;
         width: 400px;
         height: inherit;
+        box-shadow: 0px 0px 10px black;
         background-color: var(--grey);
 
         img,
@@ -103,12 +104,7 @@
           }
         }
       }
-    }
-  }
-}
-@media screen and (max-width: 1060px) {
-  .Projects {
-    &__wrapper {
+
       height: 85vh;
       height: 85dvh;
     }
@@ -117,6 +113,8 @@
 
 @media screen and (max-width: 450px) {
   .Projects {
+    padding: 10px;
+    
     &__headerSection {
       &__filterButtons {
         button {

@@ -34,3 +34,12 @@
     }
   }
 }
+
+@media screen and (max-width: 450px) {
+  .Education {
+    padding: 10px;
+    &__cardContainer {
+      padding-inline: 10px;
+    }
+  }
+}

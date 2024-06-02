@@ -9,8 +9,14 @@ const Projects = () => {
   const [isActiveButton2, setIsActiveButton2] = useState(false);
   const [isActiveButton3, setIsActiveButton3] = useState(false);
 
-  function showAll() {
-    setList(ProjectList);
+  function showNative() {
+    const tag = "Native";
+
+    const NativeList = ProjectList.filter((Project) => {
+      let flag = Project.tag === tag;
+      return flag; //it will send true and the project will get into the array
+    });
+    setList(NativeList);
     setIsActiveButton1(true);
     setIsActiveButton2(false);
     setIsActiveButton3(false);
@@ -54,14 +60,14 @@ const Projects = () => {
           >
             React JS
           </button>
-          <button onClick={showAll} className={isActiveButton1 ? "active" : ""}>
-            All Projects
-          </button>
           <button
             onClick={filterVanilla}
             className={isActiveButton3 ? "active" : ""}
           >
-            Vanilla JS
+            JavaScript
+          </button>
+          <button onClick={showNative} className={isActiveButton1 ? "active" : ""}>
+            React Native
           </button>
         </div>
       </header>

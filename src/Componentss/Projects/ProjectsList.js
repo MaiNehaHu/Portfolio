@@ -5,7 +5,6 @@ import img3 from "../../images/3DCardFlip.png";
 import img5 from "../../images/Carousel.png";
 import img6 from "../../images/SwipeCard.png";
 import img7 from "../../images/Clocks.png";
-import img8 from "../../images/Drag-and-Drop-Sortable-List.png";
 import img9 from "../../images/NETFLIX.png";
 import img10 from "../../images/searchBars.png";
 import img11 from "../../images/ParallaxEffect.png";
@@ -15,10 +14,24 @@ import img14 from "../../images/FeelBeautiful.png";
 import img15 from "../../images/SanataniAlphabets.png";
 import img16 from "../../images/FileExplorer.png";
 import img17 from '../../images/CountdownTimer.png'
-import img18 from '../../images/AnswerToQueries.png'
-import img19 from '../../images/icp.png';
+import img8 from "../../images/PapaKaBusiness.png";
+// import img8 from "../../images/Drag-and-Drop-Sortable-List.png";
+// import img18 from '../../images/AnswerToQueries.png'
+// import img19 from '../../images/icp.png';
 
 export default [
+  {
+    name: "File Explorer/ File Manager",
+    href: "https://mainehahu.github.io/File_Explorer/",
+    tag: "React",
+    src: img16,
+  },
+  {
+    name: "Debounce and Throttling using Search-Bar",
+    href: "https://mainehahu.github.io/Search-bars",
+    tag: "React",
+    src: img10,
+  },
   {
     name: "Feel Beautiful-an E-commerce Web App",
     href: "https://mainehahu.github.io/FeelBeautiful/",
@@ -32,17 +45,12 @@ export default [
     src: img1,
   },
   {
-    name: "File Explorer/ File Manager",
-    href: "https://mainehahu.github.io/File_Explorer/",
-    tag: "React",
-    src: img16,
+    name: "Papa Ka Business",
+    href: "https://github.com/MaiNehaHu/Papa-Ka-Business",
+    tag: "Native",
+    src: img8,
   },
-  {
-    name: "ICP Login",
-    href: "https://mainehahu.github.io/ICP-Login/",
-    tag: "React",
-    src: img19,
-  },
+
   {
     name: "NETFLIX clone with Mood feature",
     href: "https://mainehahu.github.io/NETFLIX-clone-with-Mood-Feature/",
@@ -68,22 +76,10 @@ export default [
     src: img0,
   },
   {
-    name: "Debounce and Throttling using Search-Bar",
-    href: "https://mainehahu.github.io/Search-bars",
-    tag: "React",
-    src: img10,
-  },
-  {
     name: "Multiple Medicine Reminder",
     href: "https://mainehahu.github.io/Multi-Medicine-Reminder",
     tag: "React",
     src: img13,
-  },
-  {
-    name: "List of Querie and Answer",
-    href: "https://mainehahu.github.io/AnswerToQueries/",
-    tag: "React",
-    src: img18,
   },
   {
     name: "Medicine Reminder",
@@ -116,12 +112,6 @@ export default [
     src: img7,
   },
   {
-    name: "Drag and Drop Sortable List",
-    href: "https://mainehahu.github.io/Drag-and-Drop-Sortable-List/",
-    tag: "Vanilla",
-    src: img8,
-  },
-  {
     name: "Simple Alarm using JS",
     href: "https://mainehahu.github.io/Alarm-using-JS/",
     tag: "Vanilla",
@@ -134,4 +124,22 @@ export default [
     tag: "Vanilla",
     src: img15,
   },
+  // {
+  //   name: "List of Querie and Answer",
+  //   href: "https://mainehahu.github.io/AnswerToQueries/",
+  //   tag: "React",
+  //   src: img18,
+  // },
+  // {
+  //   name: "Drag and Drop Sortable List",
+  //   href: "https://mainehahu.github.io/Drag-and-Drop-Sortable-List/",
+  //   tag: "Vanilla",
+  //   src: img8,
+  // },
+  // {
+  //   name: "ICP Login",
+  //   href: "https://mainehahu.github.io/ICP-Login/",
+  //   tag: "React",
+  //   src: img19,
+  // },
 ];

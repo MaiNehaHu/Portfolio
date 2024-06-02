@@ -1,12 +1,14 @@
+import kaizIQ from '../../images/kaizIQ.jpeg'
+import quadB from '../../images/quadB.png'
+
 export default [
   {
     role: "UX/UI Intern",
     company: "KaizIQ",
-    duration: "10/2023 - 01/2024",
+    duration: "Oct, 2023 - Jan, 2024",
     location: "Remote",
 
-    imageLink:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBdo9VoBPS0tFrlOX86vjCPOmoRez_JJq4xbm5P5r-lA&s",
+    imageLink: kaizIQ,
     link: "https://kaiziq.io/",
     companyDescription:
       "KaizIQ is a pioneering force in the realm of DevOps, redefining the way software development and operations are orchestrated. The mission is to empower organizations, irrespective of their scale, with a unified and seamlessly integrated DevOps ecosystem.",
@@ -15,14 +17,14 @@ export default [
       "Worked on setting up multi-screen responsiveness for 8 pages and 1 major component in React JS and SCSS format",
       "Also, I helped set up multi-language input that gets stored in an SQL database.",
     ],
-  }, {
+  },
+  {
     role: "React JS Developer Intern",
     company: "QuadB",
-    duration: "02/2024 - Present",
+    duration: "Feb, 2024 - Present",
     location: "Remote",
 
-    imageLink:
-      "https://media.licdn.com/dms/image/C4D0BAQHKVMFH-niXIg/company-logo_200_200/0/1637757773341?e=1716422400&v=beta&t=AlgTqmhBbrzHJQe9w4GKBC0H8eN0hIuDno8Ijd8umBE",
+    imageLink: quadB,
     link: "https://quadbtech.com",
     companyDescription:
       "We build digital product, from idea to design, development to marketing & PR to post launch support.",
