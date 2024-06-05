@@ -39,31 +39,6 @@ export default [
     src: img14,
   },
   {
-    name: "Awesome use of CSS Flex",
-    href: "https://mainehahu.github.io/Flex-Panels/",
-    tag: "Vanilla",
-    src: img1,
-  },
-  {
-    name: "Papa Ka Business",
-    href: "https://github.com/MaiNehaHu/Papa-Ka-Business",
-    tag: "Native",
-    src: img8,
-  },
-
-  {
-    name: "NETFLIX clone with Mood feature",
-    href: "https://mainehahu.github.io/NETFLIX-clone-with-Mood-Feature/",
-    tag: "Vanilla",
-    src: img9,
-  },
-  {
-    name: "Countdown Timer",
-    href: "https://mainehahu.github.io/CountdownTimer/",
-    tag: "React",
-    src: img17,
-  },
-  {
     name: "Parallax Effect using React JS",
     href: "https://mainehahu.github.io/Parallax-effect",
     tag: "React",
@@ -86,6 +61,30 @@ export default [
     href: "https://mainehahu.github.io/Medicine-reminder/",
     tag: "React",
     src: img2,
+  },
+  {
+    name: "Papa Ka Business",
+    href: "https://youtube.com/shorts/YwLpVVII2QQ?si=7Ni3gLUIOOHIBAFf",
+    tag: "Native",
+    src: img8,
+  },
+  {
+    name: "NETFLIX clone with Mood feature",
+    href: "https://mainehahu.github.io/NETFLIX-clone-with-Mood-Feature/",
+    tag: "Vanilla",
+    src: img9,
+  },
+  {
+    name: "Countdown Timer",
+    href: "https://mainehahu.github.io/CountdownTimer/",
+    tag: "Vanilla",
+    src: img17,
+  },
+  {
+    name: "Awesome use of CSS Flex",
+    href: "https://mainehahu.github.io/Flex-Panels/",
+    tag: "Vanilla",
+    src: img1,
   },
   {
     name: "3D card flip using CSS Transform",
