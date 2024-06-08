@@ -4,7 +4,8 @@ import img2 from "../../images/Alarm.png";
 import img3 from "../../images/3DCardFlip.png";
 import img5 from "../../images/Carousel.png";
 import img6 from "../../images/SwipeCard.png";
-import img7 from "../../images/Clocks.png";
+import img7 from "../../images/battlechan.png";
+import img8 from "../../images/PapaKaBusiness.png";
 import img9 from "../../images/NETFLIX.png";
 import img10 from "../../images/searchBars.png";
 import img11 from "../../images/ParallaxEffect.png";
@@ -14,12 +15,18 @@ import img14 from "../../images/FeelBeautiful.png";
 import img15 from "../../images/SanataniAlphabets.png";
 import img16 from "../../images/FileExplorer.png";
 import img17 from '../../images/CountdownTimer.png'
-import img8 from "../../images/PapaKaBusiness.png";
+// import img7 from "../../images/Clocks.png";
 // import img8 from "../../images/Drag-and-Drop-Sortable-List.png";
 // import img18 from '../../images/AnswerToQueries.png'
 // import img19 from '../../images/icp.png';
 
 export default [
+  {
+    name: "Battle Chan",
+    href: "https://rinem-tyaaa-aaaak-qigua-cai.icp0.io",
+    tag: "React",
+    src: img7,
+  },
   {
     name: "File Explorer/ File Manager",
     href: "https://mainehahu.github.io/File_Explorer/",
@@ -105,18 +112,11 @@ export default [
     src: img6,
   },
   {
-    name: "Basic Digital and Analog Clocks",
-    href: "https://mainehahu.github.io/Clocks/",
-    tag: "Vanilla",
-    src: img7,
-  },
-  {
     name: "Simple Alarm using JS",
     href: "https://mainehahu.github.io/Alarm-using-JS/",
     tag: "Vanilla",
     src: img12,
   },
-
   {
     name: "Similar to multiple music player",
     href: "https://mainehahu.github.io/Sanatani-Alphabets/",

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ProjectList from "./ProjectsList";
 import "./Projects.scss";
 
@@ -45,6 +45,10 @@ const Projects = () => {
     setIsActiveButton2(false);
     setIsActiveButton1(false);
   }
+
+  useEffect(() => {
+    filterReact();
+  }, []);
 
   return (
     <div className={className}>

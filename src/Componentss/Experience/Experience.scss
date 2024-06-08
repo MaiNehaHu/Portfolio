@@ -2,27 +2,59 @@
   color: black;
   width: 100%;
   min-height: 100vh;
+
   position: sticky;
   top: 0;
   z-index: 3;
   padding: 20px;
   background-color: var(--blue);
-  display: flex;
-  flex-direction: column;
+
+  &__headerSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &__filterButtons {
+      gap: 10px;
+      display: flex;
+
+      button {
+        font-size: 0.9rem;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0, 0);
+      }
+    }
+  }
+
+  &__cardContainer {
+    margin-top: 1rem;
+    // gap: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
 
   &__card {
-    gap: 40px;
+    gap: 3rem;
     width: 100%;
     display: flex;
-    padding: 1.2rem;
+    padding-block: 0.5rem;
     flex-direction: row;
+    border-bottom: 1px solid #9257ff;
 
-    &__left,
+    &__left {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+    }
     &__right {
       display: flex;
       align-items: center;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: start;
     }
 
     &__left {
@@ -31,6 +63,7 @@
       &__role,
       &__duration {
         font-size: 12px;
+        white-space: nowrap;
       }
       &__role {
         display: none;
@@ -50,6 +83,7 @@
         }
       }
       &__orgName {
+        white-space: nowrap;
         display: flex;
         align-items: center;
       }
@@ -59,7 +93,7 @@
       width: 75%;
 
       &__responsibility {
-        font-size: 0.8rem;
+        font-size: small;
       }
     }
   }
@@ -67,12 +101,6 @@
 
 @media screen and (max-width: 650px) {
   .Experience {
-    padding: 0;
-    &__heading {
-      padding: 10px;
-      margin-bottom: 1rem;
-    }
-
     &__cardContainer {
       display: grid;
       gap: 1rem;
@@ -108,6 +136,16 @@
 
 @media screen and (max-width: 450px) {
   .Experience {
+    padding: 10px;
+
+    &__headerSection {
+      &__filterButtons {
+        button {
+          font-size: 0.65rem;
+        }
+      }
+    }
+
     &__card {
       font-size: 0.5rem;
       &__right {
