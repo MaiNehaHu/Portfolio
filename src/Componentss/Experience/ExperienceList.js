@@ -45,7 +45,9 @@ export default [
     link: "https://ultrakeyit.com",
     companyDescription:
       "Enhancing Digital Brilliance Using Strategic IT Technology",
-    responsibility: [],
+    responsibility: [
+      "Crafting user-facing interfaces for websites, web applications, and even mobile apps using React Native. In short, I bring websites and apps to life!"
+    ],
     tag: "fullTime"
   }
 ];
