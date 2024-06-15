@@ -52,7 +52,7 @@ export default [
     tag: "fullTime"
   },
   {
-    role: "Frontend Developer",
+    role: "Freelance Frontend Developer",
     company: "Ajastos",
     duration: "June, 2024 - Present",
     location: "Remote",
