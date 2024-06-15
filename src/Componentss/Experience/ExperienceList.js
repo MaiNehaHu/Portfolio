@@ -38,7 +38,7 @@ export default [
   },
   {
     role: "Frontend Developer",
-    company: "Ultrakey IT Solutions",
+    company: "Ultrakey",
     duration: "July, 2024 - Present",
     location: "Remote",
 
@@ -53,7 +53,7 @@ export default [
   },
   {
     role: "Frontend Developer",
-    company: "Ajastos Film Tech Labs",
+    company: "Ajastos",
     duration: "June, 2024 - Present",
     location: "Remote",
 
