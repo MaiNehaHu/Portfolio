@@ -74,6 +74,7 @@
         border-radius: 50%;
         height: 100px;
         width: 100px;
+        margin-bottom: 1rem;
       }
       a {
         color: black;
@@ -104,7 +105,7 @@
     &__cardContainer {
       display: grid;
       gap: 1rem;
-      padding-inline: 30px;
+      padding-inline: 15px;
       grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     }
 
@@ -124,6 +125,12 @@
         }
         &__role {
           display: block;
+        }
+        &__orgName {
+          white-space: wrap;
+          word-wrap: break-word;
+          text-align: center;
+          line-height: 1.2;
         }
       }
 

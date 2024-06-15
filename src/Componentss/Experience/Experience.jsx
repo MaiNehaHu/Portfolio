@@ -64,16 +64,16 @@ const Experience = () => {
             Full Time
           </button>
           <button
-            onClick={filterInternship}
-            className={isActiveButton2 ? "active" : ""}
-          >
-            Internship
-          </button>
-          <button
             onClick={filterOthers}
             className={isActiveButton3 ? "active" : ""}
           >
             Others
+          </button>
+          <button
+            onClick={filterInternship}
+            className={isActiveButton2 ? "active" : ""}
+          >
+            Internship
           </button>
         </div>
       </header>

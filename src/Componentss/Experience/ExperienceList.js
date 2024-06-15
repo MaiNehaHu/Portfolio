@@ -1,6 +1,7 @@
 import kaizIQ from '../../images/kaizIQ.jpeg'
 import quadB from '../../images/quadB.png'
 import Ultrakey from '../../images/ultrakey.jpeg'
+import ajastos from '../../images/ajastos.png'
 
 export default [
   {
@@ -37,7 +38,7 @@ export default [
   },
   {
     role: "Frontend Developer",
-    company: "Ultrakey",
+    company: "Ultrakey IT Solutions",
     duration: "July, 2024 - Present",
     location: "Remote",
 
@@ -49,5 +50,18 @@ export default [
       "Crafting user-facing interfaces for websites, web applications, and even mobile apps using React Native. In short, I bring websites and apps to life!"
     ],
     tag: "fullTime"
+  },
+  {
+    role: "Frontend Developer",
+    company: "Ajastos Film Tech Labs",
+    duration: "June, 2024 - Present",
+    location: "Remote",
+
+    imageLink: ajastos,
+    link: "http://www.ajastos.com",
+    companyDescription:
+      "Platforms for use by Indian Film Industry professionals and semi-professionals.",
+    responsibility: [],
+    tag: "others"
   }
 ];
