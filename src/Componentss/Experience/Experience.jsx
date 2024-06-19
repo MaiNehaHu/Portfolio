@@ -58,10 +58,10 @@ const Experience = () => {
 
         <div className={`${className}__headerSection__filterButtons`}>
           <button
-            onClick={filterFulltime}
-            className={isActiveButton1 ? "active" : ""}
+            onClick={filterInternship}
+            className={isActiveButton2 ? "active" : ""}
           >
-            Full Time
+            Internship
           </button>
           <button
             onClick={filterOthers}
@@ -70,10 +70,10 @@ const Experience = () => {
             Others
           </button>
           <button
-            onClick={filterInternship}
-            className={isActiveButton2 ? "active" : ""}
+            onClick={filterFulltime}
+            className={isActiveButton1 ? "active" : ""}
           >
-            Internship
+            Full Time
           </button>
         </div>
       </header>

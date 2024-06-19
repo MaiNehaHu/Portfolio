@@ -23,7 +23,7 @@ export default [
   {
     role: "React JS Developer Intern",
     company: "QuadB Tech",
-    duration: "Feb, 2024 - July, 2024",
+    duration: "Feb, 2024 - Present",
     location: "Remote",
 
     imageLink: quadB,
@@ -35,21 +35,6 @@ export default [
       "Collaborating on projects from ideation to launch, focusing on creating innovative solutions that bring visions to reality."
     ],
     tag: "internship"
-  },
-  {
-    role: "Frontend Developer",
-    company: "Ultrakey",
-    duration: "July, 2024 - Present",
-    location: "Remote",
-
-    imageLink: Ultrakey,
-    link: "https://ultrakeyit.com",
-    companyDescription:
-      "Enhancing Digital Brilliance Using Strategic IT Technology",
-    responsibility: [
-      "Crafting user-facing interfaces for websites, web applications, and even mobile apps using React Native. In short, I bring websites and apps to life!"
-    ],
-    tag: "fullTime"
   },
   {
     role: "Freelance Frontend Developer",
