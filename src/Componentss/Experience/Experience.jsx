@@ -6,8 +6,8 @@ import "./Experience.scss";
 const Experience = () => {
   const className = "Experience";
   const [list, setList] = useState(List);
-  const [isActiveButton1, setIsActiveButton1] = useState(true); //for button
-  const [isActiveButton2, setIsActiveButton2] = useState(false);
+  const [isActiveButton1, setIsActiveButton1] = useState(false); //for button
+  const [isActiveButton2, setIsActiveButton2] = useState(true);
   const [isActiveButton3, setIsActiveButton3] = useState(false);
 
   function filterInternship() {
@@ -48,7 +48,7 @@ const Experience = () => {
   }
 
   useEffect(() => {
-    filterFulltime();
+    filterInternship();
   }, []);
 
   return (
