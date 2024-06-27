@@ -7,8 +7,8 @@ const Experience = () => {
   const className = "Experience";
   const [list, setList] = useState(List);
   const [isActiveButton1, setIsActiveButton1] = useState(false); //for button
-  const [isActiveButton2, setIsActiveButton2] = useState(true);
-  const [isActiveButton3, setIsActiveButton3] = useState(false);
+  const [isActiveButton2, setIsActiveButton2] = useState(false);
+  const [isActiveButton3, setIsActiveButton3] = useState(true);
 
   function filterInternship() {
     const tag = "internship";
@@ -48,7 +48,9 @@ const Experience = () => {
   }
 
   useEffect(() => {
-    filterInternship();
+    // filterInternship()
+    // filterFulltime()
+    filterOthers();
   }, []);
 
   return (
@@ -58,16 +60,16 @@ const Experience = () => {
 
         <div className={`${className}__headerSection__filterButtons`}>
           <button
+            onClick={filterOthers}
+            className={isActiveButton3 ? "active" : ""}
+          >
+            Freelance
+          </button>
+          <button
             onClick={filterInternship}
             className={isActiveButton2 ? "active" : ""}
           >
             Internship
-          </button>
-          <button
-            onClick={filterOthers}
-            className={isActiveButton3 ? "active" : ""}
-          >
-            Others
           </button>
           <button
             onClick={filterFulltime}

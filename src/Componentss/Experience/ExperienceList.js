@@ -7,7 +7,7 @@ export default [
   {
     role: "React JS Developer Intern",
     company: "QuadB Tech",
-    duration: "Feb, 2024 - Present",
+    duration: "Feb, 2024 - July, 2024",
     location: "Remote",
 
     imageLink: quadB,
