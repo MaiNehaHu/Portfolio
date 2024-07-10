@@ -71,7 +71,7 @@ export default [
   },
   {
     name: "Papa Ka Business",
-    href: "https://youtube.com/shorts/YwLpVVII2QQ?si=7Ni3gLUIOOHIBAFf",
+    href: "https://youtu.be/aWgVo0OpOCs",
     tag: "Native",
     src: img8,
   },

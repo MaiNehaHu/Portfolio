@@ -46,7 +46,10 @@ export default [
     link: "http://www.ajastos.com",
     companyDescription:
       "Platforms for use by Indian Film Industry professionals and semi-professionals.",
-    responsibility: [],
+    responsibility: [
+      "Contributing to the Screeplay.INK project by developing and implementing the frontend based on detailed Figma designs.",
+      "Collaborating with the team to ensure seamless integration with the existing codebase"
+    ],
     tag: "others"
   }
 ];
