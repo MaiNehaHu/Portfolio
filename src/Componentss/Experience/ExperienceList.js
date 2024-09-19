@@ -1,6 +1,6 @@
 import kaizIQ from '../../images/kaizIQ.jpeg'
 import quadB from '../../images/quadB.png'
-import Ultrakey from '../../images/ultrakey.jpeg'
+import Ultrakey from '../../images/ultrakey.png'
 import ajastos from '../../images/ajastos.png'
 
 export default [
@@ -38,8 +38,8 @@ export default [
   },
   {
     role: "Freelance Frontend Developer",
-    company: "Ajastos",
-    duration: "June, 2024 - Present",
+    company: "Ajastos Film Ind",
+    duration: "June, 2024 - Aug, 2024",
     location: "Remote",
 
     imageLink: ajastos,
@@ -47,9 +47,25 @@ export default [
     companyDescription:
       "Platforms for use by Indian Film Industry professionals and semi-professionals.",
     responsibility: [
-      "Contributing to the Screeplay.INK project by developing and implementing the frontend based on detailed Figma designs.",
-      "Collaborating with the team to ensure seamless integration with the existing codebase"
+      "Contributed in the development of the front end of the Pre-writing tools pages for the Script Editor using React JS and Tailwind CSS.",
+      "Screeplay.INK project is a sophisticated web application designed to assist directors and writers in crafting compelling scripts for various purposes, whether it be for films, theater, or other creative projects."
     ],
     tag: "others"
+  },
+  {
+    role: "Android Developer",
+    company: "Ultrakey IT Solutions",
+    duration: "June, 2024 - Present",
+    location: "Remote",
+
+    imageLink: Ultrakey,
+    link: "https://ultrakeyit.com",
+    companyDescription:
+      "Platforms for use by Indian Film Industry professionals and semi-professionals.",
+    responsibility: [
+      "Developed and contributed to Trending News Guru, a mobile application for delivering trending news, currently preparing for launch.",
+      "Collaborating with a team on the development of a comprehensive HRMS Application using React Native."
+    ],
+    tag: "fullTime"
   }
 ];
