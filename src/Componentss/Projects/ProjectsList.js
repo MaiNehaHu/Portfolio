@@ -2,6 +2,7 @@ import img0 from "../../images/To-do-with-redux.png";
 import img1 from "../../images/FlexPanels.png";
 import img2 from "../../images/Alarm.png";
 import img3 from "../../images/3DCardFlip.png";
+import img4 from "../../images/TNG.png";
 import img5 from "../../images/Carousel.png";
 import img6 from "../../images/SwipeCard.png";
 import img7 from "../../images/battlechan.png";
@@ -70,8 +71,14 @@ export default [
     src: img2,
   },
   {
-    name: "Papa Ka Business",
-    href: "https://youtu.be/aWgVo0OpOCs",
+    name: "Trending News Guru",
+    href: "https://play.google.com/store/apps/details?id=com.trending.newsguru",
+    tag: "Native",
+    src: img4,
+  },
+  {
+    name: "Factory Ledger",
+    href: "https://play.google.com/store/apps/details?id=com.factory.ledger",
     tag: "Native",
     src: img8,
   },

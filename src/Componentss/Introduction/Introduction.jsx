@@ -19,7 +19,7 @@ const Introduction = () => {
           <span className={`${className}__text__about__name`}>
             {" "} Neha Kumari
           </span>
-          . A self taught Front-End Web Developer.
+          . A self taught Front-End Web and Android App Developer.
         </p>
 
         <button type="button" className={`${className}__text__button`}>
