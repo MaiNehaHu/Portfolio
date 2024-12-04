@@ -56,7 +56,7 @@ export default [
     role: "Android Developer",
     company: "Ultrakey IT",
     duration: "July, 2024 - Present",
-    location: "Remote",
+    location: "Hyderabad, TG",
 
     imageLink: Ultrakey,
     link: "https://ultrakeyit.com",
