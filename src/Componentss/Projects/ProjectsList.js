@@ -76,12 +76,12 @@ export default [
     tag: "Native",
     src: img4,
   },
-  {
-    name: "Factory Ledger",
-    href: "https://play.google.com/store/apps/details?id=com.factory.ledger",
-    tag: "Native",
-    src: img8,
-  },
+  // {
+  //   name: "Factory Ledger",
+  //   href: "https://play.google.com/store/apps/details?id=com.factory.ledger",
+  //   tag: "Native",
+  //   src: img8,
+  // },
   {
     name: "NETFLIX clone with Mood feature",
     href: "https://mainehahu.github.io/NETFLIX-clone-with-Mood-Feature/",

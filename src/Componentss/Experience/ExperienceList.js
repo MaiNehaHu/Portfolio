@@ -39,7 +39,7 @@ export default [
   {
     role: "Freelance Frontend Developer",
     company: "Ajastos Film",
-    duration: "June, 2024 - Aug, 2024",
+    duration: "June, 2024 - Present",
     location: "Remote",
 
     imageLink: ajastos,
@@ -55,7 +55,7 @@ export default [
   {
     role: "Android Developer",
     company: "Ultrakey IT",
-    duration: "June, 2024 - Present",
+    duration: "July, 2024 - Present",
     location: "Remote",
 
     imageLink: Ultrakey,
