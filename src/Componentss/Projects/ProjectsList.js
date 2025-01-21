@@ -71,8 +71,8 @@ export default [
     src: img2,
   },
   {
-    name: "Trending News Guru",
-    href: "https://play.google.com/store/apps/details?id=com.trending.newsguru",
+    name: "Trending News Guru (In Progress)",
+    href: "https://play.google.com/store/apps/details?id=com.trendingnews.guru",
     tag: "Native",
     src: img4,
   },

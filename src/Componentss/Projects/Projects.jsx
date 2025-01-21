@@ -47,7 +47,7 @@ const Projects = () => {
   }
 
   useEffect(() => {
-    filterNative();
+    filterReact();
   }, []);
 
   return (
