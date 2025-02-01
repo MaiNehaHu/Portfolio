@@ -48,5 +48,5 @@ const About = () => {
 export default About;
 
 const skillsList = [
-  "HTML/CSS", "JavaScript", "React JS", "React Native", "Git", "GitHub", "Tailwind CSS", "Redux Toolkit", "SASS"
+  "HTML/CSS", "JavaScript", "React JS", "React Native", "Node JS", "Mongo DB", "AWS - S3", "Git", "GitHub", "Postman", "Tailwind CSS", "Redux Toolkit", "SASS"
 ]
