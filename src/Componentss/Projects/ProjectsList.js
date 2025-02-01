@@ -6,13 +6,11 @@ import img4 from "../../images/TNG.png";
 import img5 from "../../images/Carousel.png";
 import img6 from "../../images/SwipeCard.png";
 import img7 from "../../images/battlechan.png";
-import img8 from "../../images/PapaKaBusiness.png";
 import img9 from "../../images/NETFLIX.png";
 import img10 from "../../images/searchBars.png";
 import img11 from "../../images/ParallaxEffect.png";
 import img12 from "../../images/JS-Alarm.png";
 import img13 from "../../images/MultiMedicineReminder.png";
-import img14 from "../../images/FeelBeautiful.png";
 import img15 from "../../images/SanataniAlphabets.png";
 import img16 from "../../images/FileExplorer.png";
 import img17 from '../../images/CountdownTimer.png'
@@ -39,12 +37,6 @@ export default [
     href: "https://mainehahu.github.io/Search-bars",
     tag: "React",
     src: img10,
-  },
-  {
-    name: "Feel Beautiful-an E-commerce Web App",
-    href: "https://mainehahu.github.io/FeelBeautiful/",
-    tag: "React",
-    src: img14,
   },
   {
     name: "Parallax Effect using React JS",
