@@ -1,9 +1,9 @@
 export default [
   {
-    institute: "Paramount Academy",
-    course: "10th (CBSE)",
-    year: "2018",
-    grade: "82.3%",
+    institute: "Marri Laxman Reddy Institute of Technology and Management",
+    course: "Electronics and Communication Engineering",
+    year: "2020-2024",
+    grade: "8.21 CGPA",
   },
   {
     institute: "Sri Chaitanya Junior College",
@@ -12,9 +12,9 @@ export default [
     grade: "92.3%",
   },
   {
-    institute: "Marri Laxman Reddy Institute of Technology and Management",
-    course: "Electronics and Communication Engineering",
-    year: "2020-2024",
-    grade: "8.21 CGPA",
-  }
+    institute: "Paramount Academy",
+    course: "10th (CBSE)",
+    year: "2018",
+    grade: "82.3%",
+  },
 ];
