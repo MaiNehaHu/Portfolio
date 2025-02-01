@@ -39,7 +39,7 @@ export default [
   {
     role: "Freelance Frontend Developer",
     company: "Ajastos Film",
-    duration: "June, 2024 - Present",
+    duration: "June, 2024 - Sep, 2024",
     location: "Remote",
 
     imageLink: ajastos,
