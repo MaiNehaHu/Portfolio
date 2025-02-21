@@ -6,6 +6,7 @@ import img4 from "../../images/TNG.png";
 import img5 from "../../images/Carousel.png";
 import img6 from "../../images/SwipeCard.png";
 import img7 from "../../images/battlechan.png";
+import img8 from "../../images/Rupaiye.png";
 import img9 from "../../images/NETFLIX.png";
 import img10 from "../../images/searchBars.png";
 import img11 from "../../images/ParallaxEffect.png";
@@ -63,8 +64,14 @@ export default [
     src: img2,
   },
   {
-    name: "Trending News Guru (In Progress)",
-    href: "https://play.google.com/store/apps/details?id=com.trendingnews.guru",
+    name: "Expense Tracker \n (In Progress)",
+    // href: "https://play.google.com/store/apps/details?id=com.trendingnews.guru",
+    tag: "Native",
+    src: img8,
+  },
+  {
+    name: "Trending News Guru \n (In Review)",
+    // href: "https://play.google.com/store/apps/details?id=com.trendingnews.guru",
     tag: "Native",
     src: img4,
   },
